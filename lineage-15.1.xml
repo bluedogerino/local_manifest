@@ -51,15 +51,12 @@
   <project path="device/samsung/j5lte" name="Galaxy-MSM8916/android_device_samsung_j5lte" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- (J510FN - j5xnlte) -->
-  <project path="device/samsung/j5x-common" name="Galaxy-MSM8916/android_device_samsung_j5x-common" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/j5xnlte" name="Galaxy-MSM8916/android_device_samsung_j5xnlte" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/j5x-common" name="bluedogerino/android_device_samsung_j5x-common" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="device/samsung/j5xnlte" name="bluedogerino/android_device_samsung_j5xnlte" groups="device" remote="Galaxy-MSM8916"/>
 
  <!-- Samsung MSM8916 Common Repos -->
  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device"/>
-
- <!-- arm-eabi-7.2 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
 
  <!-- Dependencies -->
  <!-- <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/> -->
@@ -70,8 +67,8 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
 
  <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
+  <project path="kernel/samsung/msm8916" name="bluedogerino/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
 
  <!-- Vendor Trees For All Device Trees -->
-  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
+  <project path="vendor/samsung" name="bluedogerino/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916"/>
 </manifest>
