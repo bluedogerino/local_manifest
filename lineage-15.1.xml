@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="Galaxy-MSM8916"
+  <remote  name="GitHub"
            fetch="https://github.com"
            revision="lineage-15.1" />
 
@@ -43,16 +43,11 @@
  <!-- TWRP -->
  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.1"/>
 
- <!-- Galaxy J5 (SM-J500H - j53gxx) || (J500F-G-M-Y - j5lte) || (J500FN - j5nlte) || (J5008 - j5ltechn) -->
-  <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="Galaxy-MSM8916"/>
-  <project path="device/samsung/j5lte" name="Galaxy-MSM8916/android_device_samsung_j5lte" groups="device" remote="Galaxy-MSM8916"/>
-
  <!-- (J510FN - j5xnlte) -->
-  <project path="device/samsung/j5x-common" name="bluedogerino/android_device_samsung_j5x-common" groups="device" remote="Galaxy-MSM8916" revision="los-15.1"/>
-  <project path="device/samsung/j5xnlte" name="bluedogerino/android_device_samsung_j5xnlte" groups="device" remote="Galaxy-MSM8916" revision="los-15.1"/>
+  <project path="device/samsung/j5xnlte" name="bluedogerino/device-j5xnlte" groups="device" remote="GitHub" revision="los-15.1"/>
 
  <!-- Samsung MSM8916 Common Repos -->
- <project path="device/samsung/msm8916-common" name="bluedogerino/android_device_samsung_msm8916-common" groups="device" remote="Galaxy-MSM8916"/>
+ <project path="device/samsung/msm8916-common" name="bluedogerino/android_device_samsung_msm8916-common" groups="device" remote="GitHub"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device"/>
 
  <!-- Dependencies -->
@@ -64,8 +59,8 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
 
  <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="bluedogerino/msm8916-kernel" remote="Galaxy-MSM8916" revision="lineage-15.1-working"/>
+  <project path="kernel/samsung/msm8916" name="bluedogerino/kernel-j5xnlte" remote="GitHub" revision="lineage-15.1"/>
 
  <!-- Vendor Trees For All Device Trees -->
-  <project path="vendor/samsung" name="bluedogerino/proprietary_vendor_samsung" groups="device" remote="Galaxy-MSM8916" revision="los-15.1-no-camera"/>
+  <project path="vendor/samsung" name="Galaxy-MSM8916/proprietary_vendor_samsung" groups="device" remote="GitHub" revision="lineage-15.1"/>
 </manifest>
