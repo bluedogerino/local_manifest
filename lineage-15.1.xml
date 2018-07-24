@@ -44,10 +44,11 @@
  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-8.1"/>
 
  <!-- (J510FN - j5xnlte) -->
-  <project path="device/samsung/j5xnlte" name="bluedogerino/device-j5xnlte" groups="device" remote="GitHub" revision="los-15.1"/>
+  <project path="device/samsung/j5x-common" name="bluedogerino/device-j5x-common" groups="device" remote="GitHub" revision="lineage-15.1"/>
+  <project path="device/samsung/j5xnlte" name="bluedogerino/device-j5xnlte" groups="device" remote="GitHub" revision="lineage-15.1"/>
 
  <!-- Samsung MSM8916 Common Repos -->
- <project path="device/samsung/msm8916-common" name="bluedogerino/android_device_samsung_msm8916-common" groups="device" remote="GitHub"/>
+ <project path="device/samsung/msm8916-common" name="bluedogerino/device-msm8916-common" groups="device" remote="GitHub"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device"/>
 
  <!-- Dependencies -->
